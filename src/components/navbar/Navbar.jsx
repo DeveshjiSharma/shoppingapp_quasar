@@ -106,7 +106,7 @@ export default function Navbar() {
       {/* Desktop */}
       <header className="relative bg-white">
         {/* Top bar */}
-        <p className="flex h-10 items-center justify-center bg-pink-600 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
+        <p className="flex h-10 items-center justify-center bg-green-500 px-4 text-sm font-medium text-white sm:px-6 lg:px-8">
           Get free delivery on orders over ₹500
         </p>
         {/* Navigation */}

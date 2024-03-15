@@ -11,24 +11,8 @@ import { useDispatch, useSelector } from "react-redux";
 const Home = () => {
   const dispatch = useDispatch();
   const cartItem = useSelector((state) => state.cart);
-  // const addCart = () => {
-  //   dispatch(addToCart("Shirt"));
-  // };
-
-  // const deleteCart = () => {
-  //   dispatch(deleteFromCart("shirt"));
-  // };
   return (
     <Layout>
-      {/* <div className="flex gap-5 justify-center">
-        <button className=" bg-gray-300 p-5" onClick={() => addCart()}>
-          add
-        </button>
-        <button className=" bg-gray-300 p-5" onClick={() => deleteCart()}>
-          del
-        </button>
-      </div> */}
-
       <HeroSection />
       <Filter />
       <ProductCard />
@@ -39,3 +23,21 @@ const Home = () => {
 };
 
 export default Home;
+
+{
+  /* <div className="flex gap-5 justify-center">
+        <button className=" bg-gray-300 p-5" onClick={() => addCart()}>
+          add
+        </button>
+        <button className=" bg-gray-300 p-5" onClick={() => deleteCart()}>
+          del
+        </button>
+      </div> */
+}
+// const addCart = () => {
+//   dispatch(addToCart("Shirt"));
+// };
+
+// const deleteCart = () => {
+//   dispatch(deleteFromCart("shirt"));
+// };
