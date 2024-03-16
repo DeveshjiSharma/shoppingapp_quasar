@@ -5,7 +5,7 @@ const HeroSection = () => {
     <div>
       <img
         src="public\hero.jpg"
-        alt=""
+        alt="12"
       />
     </div>
   );
